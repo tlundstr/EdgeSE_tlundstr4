@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
+- serviceName: edge.se_tlundstr4.integrations:Debug2
+  packages:
+  - name: EdgeSE_tlundstr4
+    version: "1.0"
 packages:
 - name: EdgeSE_tlundstr4
   gitServerName: tlundstr_git
@@ -8,3 +17,9 @@ packages:
   gitUsername: tlundstr
   gitToken: edge.scaffolding.EdgeSE_tlundstr4.tlundstr_git.gitToken
   gitBranch: main
+- name: T2Utilities
+  gitServerName: tlundstr_git
+  gitUrl: https://github.com/tlundstr
+  gitUsername: tlundstr
+  gitToken: edge.scaffolding.T2Utilities.tlundstr_git.gitToken
+  gitBranch: master
