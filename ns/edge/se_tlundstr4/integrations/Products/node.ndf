@@ -44,13 +44,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">thomas.lundstrom@softwareag.com</value>
-    <value name="createdDate">1694545616965</value>
-    <value name="lastModifiedDate">1694545616965</value>
+    <value name="lastModifiedBy">thomas.lundstrom@softwareag.com</value>
+    <value name="lastModifiedDate">1695108115585</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">8323c4e165e44490a16dfd5a7016607c</value>
-      <null name="group"/>
-      <value name="name">SE_tlundstr_dev_edge</value>
+      <value name="id">default</value>
+      <value name="group">default</value>
+      <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">Products</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -69,6 +68,7 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
