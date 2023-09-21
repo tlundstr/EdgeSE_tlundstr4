@@ -64,6 +64,16 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.473
+- serviceName: t2utilities:helloworld
+  packages:
+  - name: T2Utilities
+    version: "1.0"
+- serviceName: edge.se_tlundstr4.integrations:HelloOnEdge
+  packages:
+  - name: EdgeSE_tlundstr4
+    version: "1.0"
+  - name: T2Utilities
+    version: "1.0"
 packages:
 - name: EdgeSE_tlundstr4
   gitServerName: tlundstr_git
